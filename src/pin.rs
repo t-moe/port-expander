@@ -25,11 +25,11 @@ where
         }
     }
 
-    pub(crate) fn pin_mask(&self) -> u32 {
+    pub fn pin_mask(&self) -> u32 {
         self.pin_mask
     }
 
-    pub(crate) fn port_driver(&self) -> &MUTEX {
+    pub fn port_driver(&self) -> &MUTEX {
         self.port_driver
     }
 }
